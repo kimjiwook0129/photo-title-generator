@@ -9,10 +9,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-password = st.text_input("", type="password", placeholder="비밀번호를 입력하세요")
+password = st.text_input("비밀번호", type="password", placeholder="비밀번호를 입력하세요")
 
 instruction = st.text_area(
-    "", "", height=150, 
+    "요청사항", "", height=150, 
     placeholder = "원하시는 제목 스타일이나 요청 사항을 적어주세요, 선택 사항입니다.",
     max_chars = 300
 )
