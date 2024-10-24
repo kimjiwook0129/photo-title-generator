@@ -1,9 +1,5 @@
-import os
 import streamlit as st
 from generate_photo_title import generate_photo_title
-from dotenv import load_dotenv
-
-load_dotenv()
 
 st.set_page_config(page_title="사진 제목 생성기", page_icon="📸")
 
@@ -26,7 +22,7 @@ image = st.file_uploader("사진을 업로드해주세요 (JPG, JPEG, PNG 형식
 if st.button("요청"):
     if not password:
         st.error("비밀번호를 입력해주세요.")
-    elif not password == os.getenv('authorization'):
+    elif not password == st.secrets['general']["authorization"]:
         st.error("비밀번호가 일치하지 않습니다.")
     elif not image:
         st.error("사진을 업로드해주세요.")
