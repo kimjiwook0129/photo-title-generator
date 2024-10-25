@@ -1,7 +1,7 @@
 # photo-title-generator
 
-여자친구 어머님께서 사진 찍기를 좋아하시는데 GPT 유료 버전은 사용하지 않으셔서, 만들어드린 간단한 사진 제목 지어드리는 도구입니다.
-My girlfriend's mother loves taking pictures, but since she doesn't use the paid version of GPT, this is a tool for her to generate photo titles.
+GPT 유료 버전을 사용하지 않으시는 분들을 위해 만들어드린 간단한 사진 제목 생성 도구입니다.
+A simple tool created for those who don't use the paid version of GPT to help generate photo titles.
 
 ## Setup
 
