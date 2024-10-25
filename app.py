@@ -32,6 +32,3 @@ if st.button("요청"):
                 st.markdown(f"""{generate_photo_title(image, instruction)}""")
         except:
             st.error("챗지피티에 문제가 있습니다. 관리자에게 연락해주세요.")
-
-
-        

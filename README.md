@@ -31,3 +31,4 @@ Make sure you have a OpenAI API key and add it to the `.streamlit/secrets.toml` 
 OPENAI_API_KEY = "[YOUR_OPENAI_API_KEY]"
 authorization = "[PASSWORD_YOU_WANT]"
 ```
+**Important**: Do not push the .streamlit/secrets.toml file to the Streamlit deployment. Instead, set it up in the advanced settings. Check out the [documentation](https://docs.streamlit.io/deploy/streamlit-community-cloud/deploy-your-app/secrets-management) for more information.
